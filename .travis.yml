@@ -26,7 +26,7 @@ matrix:
               packages: ['python-pip']
           after_success:
             - pip install --user cpp-coveralls
-            - coveralls -r .. --gcov-options '\-lp' -i TaoMath
+            - coveralls -r .. --gcov-options '\-lp' -i code
 before_script:
     - ccache -s
     - mkdir build
