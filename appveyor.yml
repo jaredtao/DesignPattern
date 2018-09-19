@@ -1,0 +1,18 @@
+version: build{build}
+image: Visual Studio 2017
+branches:
+  except:
+    - project/travis
+
+environment:
+  matrix:
+  - name: win32
+    platform: amd64_x86
+build_script:
+  - mkdir build
+  - cd build
+  - call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvarsall.bat" amd64
+  - cmake .. -G "NMake Makefiles"
+  - nmake
+test_script:
+  - ctest -C Release -V -j

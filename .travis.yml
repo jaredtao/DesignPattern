@@ -1,0 +1,38 @@
+language: cpp
+sudo: required
+group: edge
+
+cache:
+    - ccache
+env:
+    global:
+        - USE_CCACHE=1
+        - CCACHE_SLOPPINESS=pch_defines,time_macros
+        - CCACHE_COMPRESS=1
+        - CCACHE_MAXSIZE=100M
+
+matrix:
+    include:
+        - env: CONF=Release
+          compiler: gcc
+          addons:
+            apt:
+              packages: ['python-pip']
+          # coverage report
+        - env: CONF=Debug GCOV_FLAGS='--coverage'
+          compiler: gcc
+          addons:
+            apt:
+              packages: ['python-pip']
+          after_success:
+            - pip install --user cpp-coveralls
+            - coveralls -r .. --gcov-options '\-lp' -i TaoMath
+before_script:
+    - ccache -s
+    - mkdir build
+script:
+    - cd build 
+    - cmake .. -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_BUILD_TYPE=$CONF -DCMAKE_CXX_FLAGS="$GCOV_FLAGS" -DCMAKE_EXE_LINKER_FLAGS=$GCOV_FLAGS && make -j4
+    - ctest -j 2 -V 
+notifications:
+    email: false
