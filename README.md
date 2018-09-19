@@ -11,12 +11,12 @@
 | :---------------: | :-----------------: | :-------------------: |
 | ![lin-badge]      | ![win-badge]        | ![cov-badge]          |
 
-[lin-badge]: https://travis-ci.org/wentaojia2014/HelloDirectX.svg?branch=master "Travis build status"
-[lin-link]: https://travis-ci.org/wentaojia2014/HelloDirectX "Travis build status"
-[win-badge]: https://ci.appveyor.com/api/projects/status/gup0dy0cc2d25m7o?svg=true "AppVeyor build status"
-[win-link]: https://ci.appveyor.com/project/jiawentao/hellodirectx "AppVeyor build status"
-[cov-badge]: https://coveralls.io/repos/github/wentaojia2014/HelloDirectX/badge.svg?branch=master "Coveralls coverage"
-[cov-link]: https://coveralls.io/github/wentaojia2014/HelloDirectX?branch=master "Coveralls coverage"
+[lin-badge]: https://travis-ci.org/wentaojia2014/DesignPattern.svg?branch=master "Travis build status"
+[lin-link]: https://travis-ci.org/wentaojia2014/DesignPattern "Travis build status"
+[win-badge]: https://ci.appveyor.com/api/projects/status/cckdwxaagrh2ncvo?svg=true "AppVeyor build status"
+[win-link]: https://ci.appveyor.com/project/jiawentao/designpattern "AppVeyor build status"
+[cov-badge]: https://coveralls.io/repos/github/wentaojia2014/DesignPattern/badge.svg?branch=master "Coveralls coverage"
+[cov-link]: https://coveralls.io/github/wentaojia2014/DesignPattern?branch=master "Coveralls coverage"
 
 ## License
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/wentaojia2014/TaoJson/blob/master/LICENSE)
