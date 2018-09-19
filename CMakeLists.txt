@@ -26,7 +26,8 @@ message("Build Type " ${CMAKE_BUILD_TYPE})
 
 include_directories(${PROJECT_SOURCE_DIR})
 
+enable_testing()
+
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 add_subdirectory(code)
 
-enable_testing()
