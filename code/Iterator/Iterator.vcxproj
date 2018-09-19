@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{0588F876-047E-41EB-8576-3CC596E0B926}</ProjectGuid>
-    <RootNamespace>DesignPattern</RootNamespace>
+    <ProjectGuid>{4EBF7E5F-83AA-4091-B3D7-CF081C79F19F}</ProjectGuid>
+    <RootNamespace>Iterator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,6 +115,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Aggregate.h" />
+    <ClInclude Include="Book.h" />
+    <ClInclude Include="BookSelf.h" />
+    <ClInclude Include="BookSelfIterator.h" />
+    <ClInclude Include="Iterator.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BookSelf.cpp" />
+    <ClCompile Include="BookSelfIterator.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
