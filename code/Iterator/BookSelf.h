@@ -29,7 +29,7 @@ public:
     }
     int length() const
     {
-        return m_books.size();
+        return static_cast<int>(m_books.size());
     }
 
 private:
