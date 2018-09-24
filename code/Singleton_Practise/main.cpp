@@ -1,4 +1,4 @@
-#include "Threeton.h"
+#include "ThreeTon.h"
 #include <iostream>
 #include <string>
 using namespace std;
