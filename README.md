@@ -29,6 +29,7 @@
 | 适配器模式   | [类适配器模式](code/Adapter_01/README.md) [对象适配器模式](code/Adapter_02/README.md) |
 | 模板方法模式 | [模板方法模式](code/TemplateMethod/README.md)                                         |
 | 工厂方法模式 | [工厂方法模式](code/FactoryMethod/README.md)                                          |
+| 单例模式     | [单例模式](code/Singleton/README.md)                                                  |
 #### 联系方式:
 ***
 | 作者 | 贾文涛                           |
