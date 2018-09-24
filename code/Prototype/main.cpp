@@ -14,6 +14,12 @@ int main()
     p2->Use("World");
     cout << p1 << endl;
     cout << p2 << endl;
+
+    auto pp = mgr.Create("Not");
+    if (pp != nullptr)
+    {
+        std::cerr << "where is pointer come from ?" << endl;
+    }
     delete p1;
     delete p2;
     return 0;

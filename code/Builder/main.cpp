@@ -8,5 +8,6 @@ int main()
     director.construct();
     std::string result = builder->getResult();
     std::cout << result << std::endl;
+    delete builder;
     return 0;
 }
