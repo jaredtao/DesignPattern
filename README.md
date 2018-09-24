@@ -30,6 +30,7 @@
 | 模板方法模式 | [模板方法模式](code/TemplateMethod/README.md)                                         |
 | 工厂方法模式 | [工厂方法模式](code/FactoryMethod/README.md)                                          |
 | 单例模式     | [单例模式](code/Singleton/README.md)                                                  |
+| 原型模式     | [原型模式](code/Prototype/README.md)                                                  |
 #### 联系方式:
 ***
 | 作者 | 贾文涛                           |
