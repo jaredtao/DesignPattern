@@ -1,19 +1,18 @@
-#pragma once
+﻿#pragma once
 #include <utility>
 template <class T>
 class SingleTon
 {
 public:
-    template <typename... Args>
-    static T &GetInstance(Args... args)
+    static T &GetInstance()
     {
-        static T ins(std::forward<Args>(args)...);
+        static T ins;
         return ins;
     }
     SingleTon(const SingleTon &) = delete;
     SingleTon &operator=(const SingleTon &) = delete;
 
 protected:
-    SingleTon(){};
+    SingleTon() {}
     virtual ~SingleTon() {}
 };

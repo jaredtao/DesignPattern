@@ -1,4 +1,4 @@
-#include "SingleTon.hpp"
+﻿#include "SingleTon.h"
 #include <iostream>
 #include <string>
 using namespace std;
@@ -31,17 +31,14 @@ public:
     }
     void show()
     {
-        cout << __FUNCTION__ << " " << m_name << endl;
+        cout << __FUNCTION__ << endl;
     }
 
 protected:
-    Orange(const std::string &name) : m_name(name)
+    Orange()
     {
-        cout << name << endl;
-    }
 
-private:
-    std::string m_name;
+    }
 };
 
 int main()
@@ -51,8 +48,8 @@ int main()
     Apple::GetInstance().show();
     cout << &Apple::GetInstance() << endl;
 
-    Orange::GetInstance("or1").show();
-    Orange::GetInstance("or1").show();
-    Orange::GetInstance("").show();
+    Orange::GetInstance().show();
+    Orange::GetInstance().show();
+    Orange::GetInstance().show();
     return 0;
 }
