@@ -31,6 +31,7 @@
 | 工厂方法模式 | [工厂方法模式](code/FactoryMethod/README.md)                                          |
 | 单例模式     | [单例模式](code/Singleton/README.md)                                                  |
 | 原型模式     | [原型模式](code/Prototype/README.md)                                                  |
+| 构建模式     | [构建模式](code/Builder/README.md)                                                    |
 #### 联系方式:
 ***
 | 作者 | 贾文涛                           |
