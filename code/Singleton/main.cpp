@@ -1,4 +1,4 @@
-#include "Singleton.h"
+#include "SingleTon.hpp"
 #include <iostream>
 #include <string>
 using namespace std;
