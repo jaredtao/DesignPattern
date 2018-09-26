@@ -1,5 +1,6 @@
 #include "MessageBox.h"
 #include "ProductMgr.h"
+#include <cassert>
 #include <iostream>
 #include <string>
 using namespace std;
@@ -16,10 +17,8 @@ int main()
     cout << p2 << endl;
 
     auto pp = mgr.Create("Not");
-    if (pp != nullptr)
-    {
-        std::cerr << "where is pointer come from ?" << endl;
-    }
+    assert(pp == nullptr);
+
     delete p1;
     delete p2;
     return 0;
