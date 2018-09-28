@@ -34,6 +34,7 @@
 | 构建模式     | [构建模式](code/Builder/README.md)                                                    |
 | 抽象工厂模式 | [抽象工厂模式](code/AbstractFactory/README.md)                                        |
 | 桥接模式     | [桥接模式](code/Bridge/README.md)                                                     |
+| 策略模式     | [策略模式](code/Strategy/README.md)                                                   |
 #### 联系方式:
 ***
 | 作者 | 贾文涛                           |
