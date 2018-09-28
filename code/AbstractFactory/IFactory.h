@@ -23,14 +23,7 @@ public:
     static IFactory *getFactory(const std::string &name)
     {
         auto itor = s_createrMap.find(name);
-        if (itor != s_createrMap.end())
-        {
-            return itor->second();
-        }
-        else
-        {
-            return nullptr;
-        }
+        return itor->second();
     }
 
 private:
