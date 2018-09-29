@@ -13,9 +13,7 @@ public:
     {
         return m_size;
     }
-    virtual void addEntryy(Entry *entry) override {}
 
-protected:
     virtual void printList(const std::string &str) override
     {
         std::cout << str << "/" << toString() << std::endl;
