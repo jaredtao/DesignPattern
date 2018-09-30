@@ -37,6 +37,7 @@
 | 策略模式     | [策略模式](code/Strategy/README.md)                                                   |
 | 复合模式     | [复合模式](code/Composite/README.md)                                                  |
 | 装饰模式     | [装饰模式](code/Decorator/README.md)                                                  |
+|访问者模式    | [访问者模式](code/Visitor/README.md)                                                  |
 #### 联系方式:
 ***
 | 作者 | 贾文涛                           |
