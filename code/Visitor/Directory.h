@@ -32,15 +32,14 @@ public:
     {
         m_dirs.push_back(entry);
     }
-    virtual void accept(Visitor *visitor) override 
+    virtual void accept(Visitor *visitor) override
     {
         visitor->visit(this);
     }
-    const std::vector<Entry *> & getEntryList() const 
+    const std::vector<Entry *> &getEntryList() const
     {
         return m_dirs;
     }
-protected:
     virtual void printList(const std::string &str) override
     {
         std::cout << str << "/" << toString() << std::endl;

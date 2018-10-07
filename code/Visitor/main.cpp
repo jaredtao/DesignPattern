@@ -28,6 +28,16 @@ int main()
     tomura->addEntryy(new File("junk.mail", 40));
     auto list2 = new ListVisitor;
     root->accept(list2);
+
+    // add for coverage
+    {
+        yuki->printList("");
+        Entry *e = new Directory("test");
+        File *f = new File("123.txt", 1024);
+        f->printList("");
+        e->addEntryy(f);
+        f->toString();
+    }
     delete root;
     delete list1;
     delete list2;

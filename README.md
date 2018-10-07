@@ -40,6 +40,7 @@
 | 访问者模式   | [访问者模式](code/Visitor/README.md)                                                  |
 | 责任链模式   | [责任链模式](code/ResponsibilityChain/README.md)                                      |
 | 窗口模式     | [窗口模式](code/Facade/README.md)                                                     |
+| 仲裁者模式   | [仲裁者模式](code/Mediator/README.md)                                                 |
 
 #### 联系方式:
 ***
