@@ -39,10 +39,12 @@ int main()
         yuki->printList("");
     }
     {
+        File *f = new File("123.txt", 1);
         Entry *e = new Directory("test");
-        e->addEntryy(nullptr);
+        e->addEntryy(f);
         e->printList("");
         e->toString();
+        delete e;
     }
     delete root;
     return 0;
