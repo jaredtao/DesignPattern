@@ -42,7 +42,7 @@
 | 窗口模式     | [窗口模式](code/Facade/README.md)                                                     |
 | 仲裁者模式   | [仲裁者模式](code/Mediator/README.md)                                                 |
 | 观察者模式   | [观察者模式](code/Observer/README.md)                                                 |
-
+| 备忘录模式   | [备忘录模式](code/Memento/README.md)                                                  |
 #### 联系方式:
 ***
 | 作者 | 贾文涛                           |
