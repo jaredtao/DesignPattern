@@ -1,5 +1,5 @@
 #pragma once
-#include "DataBase.h"
+#include "Database.h"
 #include "HtmlWriter.h"
 #include <iostream>
 class PageMaker
