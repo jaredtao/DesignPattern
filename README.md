@@ -41,6 +41,7 @@
 | 责任链模式   | [责任链模式](code/ResponsibilityChain/README.md)                                      |
 | 窗口模式     | [窗口模式](code/Facade/README.md)                                                     |
 | 仲裁者模式   | [仲裁者模式](code/Mediator/README.md)                                                 |
+| 观察者模式   | [观察者模式](code/Observer/README.md)                                                 |
 
 #### 联系方式:
 ***
