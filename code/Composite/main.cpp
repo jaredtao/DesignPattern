@@ -15,7 +15,6 @@ int main()
     bin->addEntryy(new File("latex", 2000));
     static_cast<Entry *>(root)->printList();
 
-
     Directory *yuki = new Directory("yuki");
     Directory *hanako = new Directory("hanako");
     Directory *tomura = new Directory("tomura");
@@ -28,6 +27,23 @@ int main()
     tomura->addEntryy(new File("junk.mail", 40));
 
     static_cast<Entry *>(root)->printList();
+
+    // for test coverage
+    {
+        File *f = new File("123.txt", 1);
+        f->addEntryy(root);
+        f->printList("");
+        delete f;
+    }
+    {
+        yuki->printList("");
+    }
+    {
+        Entry *e = new Directory("test");
+        e->addEntryy(nullptr);
+        e->printList("");
+        e->toString();
+    }
     delete root;
     return 0;
 }

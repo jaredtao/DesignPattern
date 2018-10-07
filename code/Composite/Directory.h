@@ -32,8 +32,6 @@ public:
     {
         m_dirs.push_back(entry);
     }
-
-protected:
     virtual void printList(const std::string &str) override
     {
         std::cout << str << "/" << toString() << std::endl;
