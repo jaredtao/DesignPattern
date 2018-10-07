@@ -11,6 +11,8 @@ int main()
 
     c1->sendMsg(2, "Hello, i am c1");
     c2->sendMsg(1, "Hello, i am c2");
-    delete c1, c2, md;
+    delete c1;
+    delete c2;
+    delete md;
     return 0;
 }

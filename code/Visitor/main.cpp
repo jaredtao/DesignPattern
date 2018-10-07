@@ -35,8 +35,10 @@ int main()
         Entry *e = new Directory("test");
         File *f = new File("123.txt", 1024);
         f->printList("");
-        e->addEntryy(f);
+        f->addEntryy(e);
         f->toString();
+        delete f;
+        delete e;
     }
     delete root;
     delete list1;
