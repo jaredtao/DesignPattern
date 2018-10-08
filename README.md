@@ -43,6 +43,7 @@
 | 仲裁者模式   | [仲裁者模式](code/Mediator/README.md)                                                 |
 | 观察者模式   | [观察者模式](code/Observer/README.md)                                                 |
 | 备忘录模式   | [备忘录模式](code/Memento/README.md)                                                  |
+| 状态模式     | [状态模式](code/State/README.md)                                                      |
 #### 联系方式:
 ***
 | 作者 | 贾文涛                           |
