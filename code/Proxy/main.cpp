@@ -6,6 +6,8 @@ int main()
     p->setPrinterName("456");
     std::cout << p->getPrinterName() << std::endl;
     p->print();
+    p->setPrinterName("789");
+    p->print();
     delete p;
     return 0;
 }
