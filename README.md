@@ -45,6 +45,7 @@
 | 备忘录模式   | [备忘录模式](code/Memento/README.md)                                                  |
 | 状态模式     | [状态模式](code/State/README.md)                                                      |
 | 轻量模式     | [轻量模式](code/FlyWeight/README.md)                                                  |
+| 代理模式     | [代理模式](code/Proxy/README.md)                                                      |
 #### 联系方式:
 ***
 | 作者 | 贾文涛                           |
