@@ -23,30 +23,30 @@
 
 ## 进度
 
-| 模式         | 说明                                                                                  |
-| :----------: | :-----------------------------------------------------------------------------------: |
-| 迭代器模式   | [迭代器模式](code/Iterator/README.md)                                                 |
-| 适配器模式   | [类适配器模式](code/Adapter_01/README.md) [对象适配器模式](code/Adapter_02/README.md) |
-| 模板方法模式 | [模板方法模式](code/TemplateMethod/README.md)                                         |
-| 工厂方法模式 | [工厂方法模式](code/FactoryMethod/README.md)                                          |
-| 单例模式     | [单例模式](code/Singleton/README.md)                                                  |
-| 原型模式     | [原型模式](code/Prototype/README.md)                                                  |
-| 构建模式     | [构建模式](code/Builder/README.md)                                                    |
-| 抽象工厂模式 | [抽象工厂模式](code/AbstractFactory/README.md)                                        |
-| 桥接模式     | [桥接模式](code/Bridge/README.md)                                                     |
-| 策略模式     | [策略模式](code/Strategy/README.md)                                                   |
-| 复合模式     | [复合模式](code/Composite/README.md)                                                  |
-| 装饰模式     | [装饰模式](code/Decorator/README.md)                                                  |
-| 访问者模式   | [访问者模式](code/Visitor/README.md)                                                  |
-| 责任链模式   | [责任链模式](code/ResponsibilityChain/README.md)                                      |
-| 窗口模式     | [窗口模式](code/Facade/README.md)                                                     |
-| 仲裁者模式   | [仲裁者模式](code/Mediator/README.md)                                                 |
-| 观察者模式   | [观察者模式](code/Observer/README.md)                                                 |
-| 备忘录模式   | [备忘录模式](code/Memento/README.md)                                                  |
-| 状态模式     | [状态模式](code/State/README.md)                                                      |
-| 轻量模式     | [轻量模式](code/FlyWeight/README.md)                                                  |
-| 代理模式     | [代理模式](code/Proxy/README.md)                                                      |
-| 命令模式     | [命令模式](code/Command/README.md)                                                    |
+|类型| 模式         | 说明                                                                                  |
+|:----------:| :----------: | :-----------------------------------------------------------------------------: |
+|创建型| 工厂方法模式 | [工厂方法模式](code/Create/FactoryMethod/README.md)                                          |
+|创建型| 抽象工厂模式 | [抽象工厂模式](code/Create/AbstractFactory/README.md)                                        |
+|创建型| 构建模式     | [构建模式](code/Create/Builder/README.md)                                                    |
+|创建型| 单例模式     | [单例模式](code/Create/Singleton/README.md)                                                  |
+|创建型| 原型模式     | [原型模式](code/Create/Prototype/README.md)                                                  |
+|结构型| 复合模式     | [复合模式](code/Struct/Composite/README.md)                                                  |
+|结构型| 适配器模式   | [类适配器模式](code/Struct/Adapter_01/README.md) [对象适配器模式](code/Struct/Adapter_02/README.md) |
+|结构型| 装饰模式     | [装饰模式](code/Struct/Decorator/README.md)                                                  |
+|结构型| 窗口模式     | [窗口模式](code/Struct/Facade/README.md)                                                     |
+|结构型| 轻量模式     | [轻量模式](code/Struct/FlyWeight/README.md)                                                  |
+|结构型| 代理模式     | [代理模式](code/Struct/Proxy/README.md)                                                      |
+|结构型| 桥接模式     | [桥接模式](code/Struct/Bridge/README.md)                                                     |
+|行为型| 迭代器模式   | [迭代器模式](code/Behavior/Iterator/README.md)                                                 |
+|行为型| 模板方法模式 | [模板方法模式](code/Behavior/TemplateMethod/README.md)                                         |
+|行为型| 策略模式     | [策略模式](code/Behavior/Strategy/README.md)                                                   |
+|行为型| 访问者模式   | [访问者模式](code/Behavior/Visitor/README.md)                                                  |
+|行为型| 责任链模式   | [责任链模式](code/Behavior/ResponsibilityChain/README.md)                                      |
+|行为型| 仲裁者模式   | [仲裁者模式](code/Behavior/Mediator/README.md)                                                 |
+|行为型| 观察者模式   | [观察者模式](code/Behavior/Observer/README.md)                                                 |
+|行为型| 备忘录模式   | [备忘录模式](code/Behavior/Memento/README.md)                                                  |
+|行为型| 状态模式     | [状态模式](code/Behavior/State/README.md)                                                      |
+|行为型| 命令模式     | [命令模式](code/Behavior/Command/README.md)                                                    |
 #### 联系方式:
 ***
 | 作者 | 贾文涛                           |
