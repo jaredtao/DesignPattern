@@ -31,3 +31,4 @@ enable_testing()
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 add_subdirectory(code)
 
+add_subdirectory(Template)
