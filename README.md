@@ -85,19 +85,29 @@
 
     对象的行为型模式则使用对象的聚合关联关系来分配行为，对象行为型模式主要是通过对象关联等方式来分配两个或多个类的职责。根据“合成复用原则”，系统中要尽量使用关联关系来取代继承关系，因此大部分行为型设计模式都属于对象行为型设计模式。
 
-#### 联系方式:
+### 联系方式:
+
 ***
-| 作者 | 贾文涛                           |
+
+| 作者 | 涛哥                           |
 | ---- | -------------------------------- |
-| QQ   | 759378563                        |
+| QQ、TIM   | 759378563                      |
 | 微信 | xsd2410421                       |
 | 邮箱 | jared2020@163.com                |
 | blog | https://wentaojia2014.github.io/ |
 
-###### 请放心联系我，乐于提供相关帮助
+***
+
+QQ(TIM)、微信二维码
+
+<img src="https://github.com/wentaojia2014/wentaojia2014.github.io/blob/master/img/qq_connect.jpg?raw=true" width="30%" height="30%" /><img src="https://github.com/wentaojia2014/wentaojia2014.github.io/blob/master/img/weixin_connect.jpg?raw=true" width="30%" height="30%" />
+
+
+###### 请放心联系我，乐于提供咨询服务，也可洽谈有偿技术支持相关事宜。
+
 ***
 #### **打赏**
 <img src="https://github.com/wentaojia2014/wentaojia2014.github.io/blob/master/img/weixin.jpg?raw=true" width="30%" height="30%" /><img src="https://github.com/wentaojia2014/wentaojia2014.github.io/blob/master/img/zhifubao.jpg?raw=true" width="30%" height="30%" />
 
-###### 觉得分享的内容还不错, 就请作者喝杯咖啡吧~~
+###### 觉得分享的内容还不错, 就请作者喝杯奶茶吧~~
 ***
