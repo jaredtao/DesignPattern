@@ -94,7 +94,7 @@
 | QQ、TIM   | 759378563                      |
 | 微信 | xsd2410421                       |
 | 邮箱 | jared2020@163.com                |
-| blog | https://wentaojia2014.github.io/ |
+| blog | https://jaredtao.github.io/ |
 
 ***
 
