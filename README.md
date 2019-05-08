@@ -17,8 +17,8 @@
 [lin-link]: https://travis-ci.org/jaredtao/DesignPattern "Travis build status"
 [win-badge]: https://ci.appveyor.com/api/projects/status/cckdwxaagrh2ncvo?svg=true "AppVeyor build status"
 [win-link]: https://ci.appveyor.com/project/jiawentao/designpattern "AppVeyor build status"
-[cov-badge]: https://coveralls.io/repos/github/jaredtao/DesignPattern/badge.svg?branch=master "Coveralls coverage"
-[cov-link]: https://coveralls.io/github/jaredtao/DesignPattern?branch=master "Coveralls coverage"
+[cov-badge]: https://coveralls.io/repos/github/wentaojia2014/DesignPattern/badge.svg?branch=master "Coveralls coverage"
+[cov-link]: https://coveralls.io/github/wentaojia2014/DesignPattern?branch=master "Coveralls coverage"
 
 ## License
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jaredtao/TaoJson/blob/master/LICENSE)
