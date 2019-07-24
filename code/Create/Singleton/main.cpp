@@ -4,7 +4,7 @@
 using namespace std;
 class Apple : public SingleTon<Apple>
 {
-    friend class SingleTon<Apple>;
+    friend SingleTon<Apple>;
 
 public:
     void show()
@@ -22,7 +22,7 @@ protected:
 
 class Orange : public SingleTon<Orange>
 {
-    friend class SingleTon<Orange>;
+    friend SingleTon<Orange>;
 
 public:
     ~Orange()

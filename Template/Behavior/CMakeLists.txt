@@ -1,4 +1,4 @@
-FILE(GLOB_RECURSE newList *.h)
+FILE(GLOB_RECURSE newList *.hpp)
 set(dirList "")
 foreach(arg ${newList})
     get_filename_component(dirPath ${arg} PATH)
