@@ -21,9 +21,11 @@
 [cov-link]: https://coveralls.io/github/wentaojia2014/DesignPattern?branch=master "Coveralls coverage"
 
 ## CI - Github-Actions
+
 | [Github-Actions][actions-link]|
 | :---------------:|
-|![actions-badge]|
+| ![actions-badge] |
+
 [actions-link]: https://github.com/JaredTao/DesignPattern/actions "Github-Actions"
 [actions-badge]: https://github.com/JaredTao/DesignPattern/workflows/DesignPatternCI/badge.svg  "Github-Actions"
 
