@@ -1,4 +1,4 @@
-﻿# Design Pattern
+﻿﻿# Design Pattern
 设计模式
 
 ## 简介
@@ -7,9 +7,9 @@
 
 使用C++11实现
 
-## Build status
+## CI - Travis/Appveyor
 
-| [Linux][lin-link] | [Windows][win-link] | [Coveralls][cov-link] |
+| [Ubuntu][lin-link] | [Windows][win-link] | [Coveralls][cov-link] |
 | :---------------: | :-----------------: | :-------------------: |
 | ![lin-badge]      | ![win-badge]        | ![cov-badge]          |
 
@@ -19,6 +19,13 @@
 [win-link]: https://ci.appveyor.com/project/jiawentao/designpattern "AppVeyor build status"
 [cov-badge]: https://coveralls.io/repos/github/wentaojia2014/DesignPattern/badge.svg?branch=master "Coveralls coverage"
 [cov-link]: https://coveralls.io/github/wentaojia2014/DesignPattern?branch=master "Coveralls coverage"
+
+## CI - Github-Actions
+| [Github-Actions][actions-link]|
+| :---------------:|
+|![actions-badge]|
+[actions-link]: https://github.com/JaredTao/DesignPattern/actions "Github-Actions"
+[actions-badge]: https://github.com/JaredTao/DesignPattern/workflows/DesignPatternCI/badge.svg  "Github-Actions"
 
 ## License
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jaredtao/TaoJson/blob/master/LICENSE)
