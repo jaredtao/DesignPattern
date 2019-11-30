@@ -18,7 +18,7 @@ jobs:
         call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Auxiliary\Build\vcvars64.bat"
         mkdir build
         cd build
-        cmake .. -G "NMake Makefiles"
+        cmake .. -G "NMake Makefiles" -DCMAKE_BUILD_TYPE=release
         nmake
         ctest -C Release -V -j
     - name: unix-build
@@ -26,6 +26,6 @@ jobs:
       run: |
         mkdir build
         cd build
-        cmake ..
+        cmake .. -DCMAKE_BUILD_TYPE=release
         make -j4
         ctest -j 2 -V 
