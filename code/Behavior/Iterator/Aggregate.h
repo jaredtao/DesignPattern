@@ -6,6 +6,6 @@ template <class Item>
 class Aggregate
 {
 public:
-    ~Aggregate() {}
+    virtual ~Aggregate() {}
     virtual Iterator<Item> *CreateIterator() = 0;
 };
