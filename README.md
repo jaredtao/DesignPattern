@@ -1,5 +1,8 @@
 ﻿﻿# Design Pattern
+  
 设计模式
+
+[gitee镜像:https://gitee.com/jaredtao/DesignPattern](https://gitee.com/jaredtao/DesignPattern)
 
 ## 简介
 
